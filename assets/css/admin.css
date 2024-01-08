@@ -1,0 +1,241 @@
+body {
+  font-family: poppins;
+}
+
+#side-menu {
+  background: #222;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 200px;
+}
+
+#side-menu nav a{
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+}
+
+#side-menu nav a.active {
+  background: #333;
+  border-left: 5px solid green;
+}
+
+#side-menu nav a:hover {
+  background-color: #555;
+  border-left: 5px solid green;
+}
+
+#side-menu nav a .fas {
+  color: green;
+  font-size: 1.4rem;
+  margin-right: .8rem;
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  top: 2px;
+}
+
+#side-menu .admin-img {
+  background: url('../img/logo3.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#side-menu h3 {
+  text-align: center;
+  color: #bbb;
+}
+
+#side-menu hr {
+  width: 190px;
+  border:1px solid #333;
+}
+
+header {
+  margin-left: 200px;
+  padding: 10px;
+  background: #eee;
+  height: 60px;
+}
+
+
+header .user-area {
+  display: inline-block;
+  float: right;
+  padding: 3px;
+}
+
+header .user-area a {
+  display: inline-block;
+  padding-right: 20px;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+header .user-area .user-img {
+  background: url('../img/logo3.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+header .user-area .fa-sort-down {
+  position: relative;
+  top: -8px;
+}
+
+.content-area {
+  background: #ddd;
+  height: 90vh;
+  margin-top: 10px;
+  margin-left: 220px;
+  margin-right: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  background: #eee;
+}
+
+.student-area {
+  background: none;
+  margin-top: 10px;
+  margin-left: 220px;
+  margin-right: 20px;
+}
+
+.teacher-area {
+  background: none;
+  margin-top: 10px;
+  margin-left: 220px;
+  margin-right: 20px;
+}
+
+.game-area1, .game-area2, .game-area3 {
+  background: none;
+  margin-top: 10px;
+  margin-left: 220px;
+  margin-right: 20px;
+}
+
+.link-game {
+  display: block;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  margin-left: 3px;
+}
+
+.fa-pen-square {
+  color:#0FA3B1;
+}
+
+.fa-trash-alt {
+  color: #D36135;
+}
+
+.fa-envelope-open {
+  color: #4E4B5C;
+}
+
+.icon {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  transition: all .3s ease-in-out
+}
+
+.icon:hover {
+  text-shadow: 0 0 1px #222;
+}
+
+.box {
+  width:1100px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.table {
+  width: 100% !important;
+}
+
+.quiz-area {
+  display: inline-block;
+  width: 100%;
+}
+
+.quiz-area input{
+  float: right;
+  width: 80%;
+  height: 40px;
+  margin-top: 3px;
+  border-radius: 3px;
+  border: 1px solid #999;
+  padding: 1px;
+  padding-left: 5px;
+}
+
+select {
+  float: right;
+  width: 80%;
+  height: 40px;
+  margin-top: 3px;
+  border-radius: 3px;
+  border: 1px solid #999;
+  padding: 1px;
+  padding-left: 5px;
+}
+
+.quiz-area label{
+  margin-top: 3px;
+  padding: 10px;
+
+}
+
+.quiz-area textarea {
+  float: right;
+  width: 80%;
+  height: 100px;
+  border-radius: 3px;
+  border: 1px solid #999;
+  resize: none;
+}
+
+.btn-quiz {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btn-quiz1 {
+  margin-left: 190px !important;
+}
+
+.btn-add {
+  float: right;
+}
+.logout {
+  display: inline-block;
+  padding: 7px;
+
+}

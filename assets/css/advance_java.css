@@ -1,0 +1,325 @@
+body {
+  font-family: poppins;
+}
+/* sidebar navigator */
+
+.nav-sidebar {
+  background: #222;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.nav-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: -40px;
+}
+
+.icon-nav {
+  font-size: 30px;
+  margin-left: -27px;
+  margin-top: 20px;
+}
+
+/* end Sidebar Nav */
+
+/*game Map*/
+
+.fa-clock {
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 10px !important;
+  border-left: 1px solid gray;
+  padding-left: 10px;
+  /* padding-right: 60px; */
+  padding-right: 200px;
+  width: 100px;
+
+}
+
+.fa-clock span {
+  font-family: poppins;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.game-map {
+  position: absolute;
+  background-color: #222;
+  margin-left: 63px;
+  margin-top: 3px;
+  width: 750px;
+  height: 690px;
+}
+
+.title-map {
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  margin-top: 3px;
+  color: #eee;
+}
+
+#game {
+  margin-left:10px;
+  width: 845px;
+}
+
+#game-body {
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.game-obj {
+  position: absolute;
+  background-color: #222;
+  margin-left: 816px;
+  margin-top: 3px;
+  width: 540px;
+  height: 595px;
+  padding: 20px;
+}
+
+.game-obj p {
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  margin-top: -13px;
+  margin-left: -7px;
+  color: #eee;
+}
+
+.game-obj2 {
+  position: absolute;
+  border: 1px solid gray;
+  width: 425px;
+  height: 235px;
+  margin-top: 13px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.title-map-p{
+  margin-top: 7px;
+  border-right: none;
+  border-left: 3px solid gray;
+  padding-left:3px;
+  width: 60px;
+  color: #ddd;
+  margin-left: 6px;
+}
+
+.game-ex {
+  position: absolute;
+  border: 1px solid gray;
+  width: 300px;
+  height: 135px;
+  border-radius: 3px;
+  margin-top: 13px;
+  margin-left: 443px;
+}
+
+#quiz-ex {
+  width: 100%;
+  overflow: hidden;
+  height: 95px;
+  background: none;
+  border: none;
+  overflow: scroll;
+  color: #ddd;
+  padding: 10px;
+  font-size: 10px;
+}
+
+#quiz-hint {
+  font-size: 10px;
+  color: #eee;
+  padding: 5px;
+  background: #ee12;
+  margin-left:10px;
+  width: 280px;
+  border-radius: 3px;
+  padding-bottom: 3px;
+}
+
+.game-hint {
+  position: absolute;
+  border: 1px solid gray;
+  width: 300px;
+  height: 93px;
+  border-radius: 3px;
+  margin-top: 155px;
+  margin-left: 443px;
+}
+
+
+
+
+#obj-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+.game-question {
+  position: absolute;
+  background-color: #222;
+  margin-left: 63px;
+  margin-top: 600px;
+  width: 750px;
+  height: 93px;
+}
+
+.game-time {
+  position: absolute;
+  background-color: #222;
+  margin-left: 816px;
+  margin-top: 600px;
+  width: 540px;
+  height: 93px;
+  padding: 10px;
+}
+
+
+#quiz-box {
+  padding: 10px;
+}
+
+#quiz-box p {
+  font-size: 30px;
+  text-align: center;
+  color: #eee;
+}
+
+.quiz-box-pad {
+  padding-left: 60px;
+}
+
+.qb-text {
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  margin-top: 3px;
+  color: #eee;
+}
+
+.btn-question {
+  background-color:#034638;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  width: 160px;
+  height: 40px;
+  color: #eee;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  transition: all 0.8s;
+}
+
+.btn-question:hover {
+  box-shadow: 0 0 10px #eee;
+  transition: all 0.8s;
+}
+
+
+.col-xs-3 {
+  width: 230px;
+}
+
+
+.timer {
+  color: #999;
+  font-family: poppins !important;
+}
+
+.fa-clock {
+  position: absolute;
+  color: #eee;
+  margin-top: -10px;
+  right:0px;
+  margin-right: 6px;
+}
+
+.CodeMirror {
+font-size: 12px !important;
+height: 490px !important;
+}
+
+
+.fa-times-circle {
+  width: 100%;
+  text-align: center !important;
+  font-size: 35px;
+  color: red;
+}
+
+.fa-check-circle {
+  width: 100%;
+  text-align: center !important;
+  font-size: 35px;
+  color: green;
+}
+
+.wrong-font {
+  font-family: 'poppins light';
+  color: #222;
+}
+
+.game-space {
+  position:  absolute;
+  width: 300px;
+  color:#eee;
+}
+
+
+.fa-lightbulb {
+  color: yellow;
+  font-size: 20px;
+}
+.scrollbar
+{
+	float: left;
+	background: #222 !important;
+	overflow-y:scroll;
+  overflow-x: hidden !important;
+	margin-bottom: 25px;
+}
+
+
+#wrapper
+{
+	text-align: center;
+	width: 200px;
+	margin: auto;
+}
+
+#quiz-ex::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #222;
+}
+
+#quiz-ex::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #222;
+}
+
+#quiz-ex::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #222;
+}

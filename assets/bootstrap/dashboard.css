@@ -1,0 +1,530 @@
+
+
+/*
+ * Base structure
+ */
+
+@media (max-width: 768px) {
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #222;
+}
+
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+
+
+/* Sidebar navigation */
+
+.btn-logout {
+  display: none
+}
+
+}
+@media (min-width: 768px) {
+
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #222;
+    border-right: 1px solid #eee;
+  }
+  .navbar-right {
+    display: none;
+  }
+
+
+}
+
+body {
+  font-family: coolvetica;
+  padding-top: 50px;
+}
+
+footer {
+  background-color: #222;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+  overflow-y: auto;
+  border:1px outset #080808;
+}
+
+.btn {
+background-color: #0c8564;
+border:1px solid gray;
+}
+
+.btn:hover {
+background-color: #fff;
+}
+
+.btn-logout {
+  float: right;
+  margin-top: 8px;
+}
+
+.main {
+padding: 20px;
+}
+
+.main .page-header {
+margin-top: 0;
+}
+
+#img-holder {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  border:5px inset #0c8564;
+}
+
+#name {
+  color: white;
+  text-align: center;
+}
+
+#student {
+  color: gray;
+  text-align: center;
+}
+
+.section1 {
+  background-color: #eaeaea;
+  padding: 5px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px #aab2bd
+}
+
+
+.sectionv1 {
+  background-color: #eaeaea;
+  padding: 5px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px #aab2bd
+}
+
+.section2 {
+  margin-top: 20px;
+  background-color: #eaeaea;
+  padding: 5px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px #aab2bd
+}
+
+.c_div {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.java_div {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.lang_div {
+  text-align: center;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #0c8564;
+  border-left:5px solid #325585;
+}
+
+.nav-sidebar li a:hover {
+  border-left:5px solid #325585;
+}
+
+.page-header {
+  padding: 10px;
+  border: none;
+  font-size: 30px;
+  color: #222;
+  font-family: henrik;
+  text-shadow: 2px 1px 1px white;
+}
+
+.sub-header {
+  padding: 10px;
+  border: none;
+  font-size: 30px;
+  color: #222;
+  font-family: henrik;
+  text-shadow: 2px 1px 1px white;
+}
+
+.rank_div {
+  margin: auto;
+}
+
+.learn_div {
+  margin: auto;
+  width: 200px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.learn_h {
+  text-align: center;
+}
+
+.learn_p {
+  padding-left: 50px;
+}
+
+nav {
+  font-family: henrik;
+}
+
+.sidebar-text {
+  color: gray;
+}
+
+.profile1 {
+  background-color: #eaeaea;
+  padding: 5px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px #aab2bd
+}
+
+
+.profile2 {
+  margin-top: 20px;
+  background-color: #eaeaea;
+  padding: 5px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px #aab2bd
+}
+
+.img_profile {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  margin:auto;
+  margin-top: 20px;
+  border:5px inset #0c8564;
+}
+
+.prof {
+  margin: auto;
+}
+
+.inf1{
+  padding: 30px;
+  margin: auto;
+  border-right: 2px inset gray;
+  height: 200px;
+}
+
+.inf1 button {
+  float: left;
+}
+
+.extra {
+  margin:auto;
+  height: 200px;
+  padding: 30px;
+}
+
+.inform {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.profinfo {
+  padding-left: 50px;
+  border-right: 2px inset gray;
+}
+
+.game_form {
+  padding: 30px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.game1 {
+  margin: auto;
+  border-radius: 5px;
+  height: 420px;
+  text-align: center;
+  border:1px solid #222;
+  margin-top: 40px;
+  background-color: #eee;
+  box-shadow: 0 0 5px #eee;
+  transition: all 1s;
+
+}
+
+.game1:hover {
+  background-color: #eee;
+  border:1px solid #222;
+  box-shadow: 0 0 5px #222;
+  transition: all 1s;
+}
+
+.game-desc {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px !important;
+  width: 100%;
+  height: 150px;
+  padding: 25px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.ranking_form {
+  background-color: #eaeaea;
+  padding: 30px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 3px 2px #aab2bd
+}
+
+.ranking_form h3{
+  text-align: center;
+  font-weight: bold;
+  text-shadow:
+}
+
+.ranking_form h3 span{
+  color:#f4dc42;
+}
+
+table {
+  font-family: coolvetica;
+}
+
+thead {
+  background-color: #0c8564;
+  color: #eaeaea;
+
+}
+
+.navbar {
+  border-bottom: 3px solid  #325585;
+}
+
+.img_game {
+  width: 200px;
+  height: 200px;
+}
+
+.img_div {
+  width: 200px;
+  margin: auto;
+}
+
+/*end of student form*/
+
+/*start of teacher form*/
+
+.nav-teach {
+  border-bottom: 3px solid #f4b942;
+}
+
+.sidebar-teach > .active > a,
+.sidebar-teach > .active > a:hover,
+.sidebar-teach > .active > a:focus {
+  color: #fff;
+  background-color: #0c8564;
+  border-left:5px solid #f4b942;
+}
+
+.sidebar-teach li a:hover {
+  border-left:5px solid #f4b942;
+}
+
+.custom-bar-chart {
+    height: 290px;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    border-bottom: 1px solid #c9cdd7;
+}
+
+.custom-bar-chart .bar {
+    height: 100%;
+    position: relative;
+    width: 2%;
+    margin: 0px 4%;
+    float: left;
+    text-align: center;
+    z-index: 10;
+}
+
+.custom-bar-chart .bar .title {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.custom-bar-chart .bar .value {
+    position: absolute;
+    bottom: 0;
+    background: #222;
+    color: #4ECDC4;
+    width: 100%;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+.custom-bar-chart .bar .value:hover {
+    background: #2f2f2f;
+    color: #fff;
+}
+
+.y-axis {
+    color: #555555;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.y-axis li {
+    border-top: 1px dashed #dbdce0;
+    display: block;
+    height: 58px;
+    width: 100%;
+}
+
+.y-axis li:last-child {
+    border-top: none;
+}
+
+.y-axis li span {
+    display: block;
+    margin: -10px 0 0 -60px;
+    padding: 0 10px;
+    width: 40px;
+}
+
+.c_nov {
+  width: 95%;
+  margin: auto;
+  height: auto;
+  margin-top: 20px;
+}
+
+.novice_c {
+  width: 200px;
+  height: 200px;
+  margin:auto;
+  display: block;
+}
+
+.img_cnov {
+  border-right: 3px inset gray;
+}
+
+.des_cnov {
+  font-size: 20px;
+  padding:10px;
+  margin: auto;
+
+}
+
+.game_typev {
+ background-color: gray;
+ border-radius: 5px;
+ height:200px;
+
+}
+.nanobar {
+  margin-top: 50px;
+}
+
+.teacher-area {
+  font-size: 20px;
+  padding: 30px;
+  background: #ddd;
+  /* margin-top: 0px; */
+}
+
+.form-group {
+  width: 283px;
+  margin-top: 3px;
+}
+
+.form-group input {
+  float: right;
+  margin-right: 10px;
+}
+
+.fa-trash-alt {
+  text-align: center;
+  margin-left: 15px !important;
+  margin:auto;
+  font-size:20px;
+  transition: all .3s;
+}
+
+.fa-trash-alt:hover {
+  text-shadow: 0 0 5px #222;
+  transition: all .3s;
+}

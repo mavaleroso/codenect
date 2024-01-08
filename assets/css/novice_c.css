@@ -1,0 +1,228 @@
+
+/* sidebar navigator */
+body {
+  font-family: poppins;
+  background-color: #333 !important;
+
+}
+
+.nav-sidebar {
+  background: #222;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.nav-logo {
+  width: 60px;
+  height: 60px;
+  margin-left: -40px;
+}
+
+.icon-nav {
+  font-size: 30px;
+  margin-left: -27px;
+  margin-top: 20px;
+}
+
+/* end Sidebar Nav */
+
+/*game Map*/
+
+.fa-clock {
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+
+
+.fa-clock span {
+  font-family: poppins;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.game-map {
+  position: absolute;
+  background-color: #222;
+  margin-left: 63px;
+  margin-top: 3px;
+  width: 900px;
+  height: 495px;
+}
+
+.game-map p {
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  margin-top: 3px;
+  color: #eee;
+}
+
+#game {
+  margin-left:10px;
+  width: 880px;
+}
+
+.game-obj {
+  position: absolute;
+  background-color: #222;
+  margin-left: 967px;
+  margin-top: 3px;
+  width: 389px;
+  height: 495px;
+  color: #eee;
+}
+
+.game-obj p {
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  margin-top: 3px;
+  color: #eee;
+}
+
+#obj-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+.game-question {
+  position: absolute;
+  padding: 30px;
+  background-color: #222;
+  margin-left: 63px;
+  margin-top: 501px;
+  width: 600px;
+  height: 191px;
+  color: #eee;
+}
+
+.game-space {
+  position: absolute;
+  background-color: #222;
+  margin-left: 667px;
+  margin-top: 501px;
+  width: 396px;
+  height: 191px;
+  color: #eee;
+}
+
+.game-time {
+  position: absolute;
+  background-color: #222;
+  margin-left: 1067px;
+  margin-top: 501px;
+  width: 289px;
+  height: 191px;
+  padding: 10px;
+}
+
+#quiz-box {
+  padding: 15px;
+}
+
+
+.quiz-box-pad {
+  padding-left: 60px;
+}
+
+.qb-text {
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  margin-top: 3px;
+  color: #eee;
+}
+
+.btn-question {
+  background-color:#034638;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  width: 200px;
+  height: 40px;
+  color: #eee;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  transition: all 0.8s;
+  margin-top: 20px;
+}
+
+.quiz-problem {
+  padding: 10px;
+  background-color: #333;
+  border-radius: 3px;
+  height: auto;
+  text-align: center;
+}
+
+.btn-question:hover {
+  box-shadow: 0 0 10px #eee;
+  transition: all 0.8s;
+}
+
+
+.col-xs-3 {
+  width: 230px;
+}
+
+.game-time p {
+  text-align: center;
+  color: #eee;
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.timer {
+  color: #666;
+}
+
+.fa-clock {
+  color: #eee;
+}
+
+.hint-text {
+  border: none !important;
+  width: 100% !important;
+  font-size: 13px !important;
+}
+
+.btn-hint {
+  position: absolute;
+  bottom: 0;
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+
+.fa-times-circle {
+  width: 100%;
+  text-align: center !important;
+  font-size: 35px;
+  color: red;
+}
+
+.fa-check-circle {
+  width: 100%;
+  text-align: center !important;
+  font-size: 35px;
+  color: green;
+}
+
+.wrong-font {
+  font-family: 'poppins light';
+  color: #222;
+}
+
+.fa-lightbulb {
+  color: yellow;
+  font-size: 20px;
+}
